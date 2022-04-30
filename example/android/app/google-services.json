@@ -1,0 +1,82 @@
+{
+  "project_info": {
+    "project_number": "606060402331",
+    "project_id": "fireflutter-walter",
+    "storage_bucket": "fireflutter-walter.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:606060402331:android:5185c9b75e790c2abe183e",
+        "android_client_info": {
+          "package_name": "com.fireflutter.example"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "606060402331-atc74fft21u28a7lntm30qk15nbtlnbp.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyC9N1SzabzqkS4xZf56akP08TUPs1of6jk"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "606060402331-atc74fft21u28a7lntm30qk15nbtlnbp.apps.googleusercontent.com",
+              "client_type": 3
+            },
+            {
+              "client_id": "606060402331-ld3oa0662plgu7umj174s3s9n2vcjbj7.apps.googleusercontent.com",
+              "client_type": 2,
+              "ios_info": {
+                "bundle_id": "com.fiteflutter.walt"
+              }
+            }
+          ]
+        }
+      }
+    },
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:606060402331:android:c0b0d715521978b7be183e",
+        "android_client_info": {
+          "package_name": "com.fireflutter.walt"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "606060402331-atc74fft21u28a7lntm30qk15nbtlnbp.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyC9N1SzabzqkS4xZf56akP08TUPs1of6jk"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "606060402331-atc74fft21u28a7lntm30qk15nbtlnbp.apps.googleusercontent.com",
+              "client_type": 3
+            },
+            {
+              "client_id": "606060402331-ld3oa0662plgu7umj174s3s9n2vcjbj7.apps.googleusercontent.com",
+              "client_type": 2,
+              "ios_info": {
+                "bundle_id": "com.fiteflutter.walt"
+              }
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

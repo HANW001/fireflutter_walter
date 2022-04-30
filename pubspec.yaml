@@ -1,0 +1,102 @@
+name: fireflutter
+description: A free, open source, complete, rapid development package for creating Social apps, Chat apps, Community(Forum) apps, Shopping mall apps, and much more based on Firebase.
+version: 0.2.21
+homepage: https://github.com/thruthesky/fireflutter
+
+environment:
+  sdk: ">=2.15.0 <3.0.0"
+  flutter: ">=2.2.0"
+
+dependencies:
+  flutter:
+    sdk: flutter
+
+  # Firebase
+  firebase_core: ^1.15.0
+  firebase_auth: ^3.3.15
+  firebase_database: ^9.0.12
+  cloud_firestore: ^3.1.13
+  firebase_dynamic_links: ^4.2.0
+  firebase_storage: ^10.2.13
+  firebase_messaging: ^11.2.14
+  cloud_functions: ^3.2.13
+
+  # Firebase UI.
+  flutterfire_ui: ^0.3.2
+
+  rxdart: ^0.27.3
+
+  # File upload
+  path_provider: ^2.0.8
+  image_picker: ^0.8.4+6
+  flutter_image_compress: ^1.1.0
+  photo_view: ^0.13.0
+
+  # Caching uploaded image
+  cached_network_image: ^3.2.0
+
+  # PhoneNumberInput widget
+  country_code_picker: ^2.0.2
+
+  # Chat room pagination. firestore pagination ui helper.
+  paginate_firestore: ^1.0.3
+
+  # chat badge
+  badges: ^2.0.2
+
+  # geocoding, geolocator, google_maps_flutter, flutter_polyline_points are for `Find Friend`.
+  geocoding: ^2.0.1
+  geolocator: ^8.2.0
+  google_maps_flutter: ^2.1.1
+  # flutter_polyline_points: ^1.0.0
+
+  # reminder service,
+  shared_preferences: ^2.0.12
+
+  # date and time
+  jiffy: ^5.0.0
+
+  # uuid
+  uuid: ^3.0.5
+
+  # color picker for admin category management screen
+  flutter_colorpicker: ^1.0.3
+
+  # Forum search function
+  meilisearch: ^0.5.1
+
+  # flutter_html for post content and comment content.
+  # flutter_html 2.x has dependency problem with fluter_svg
+  flutter_html: ^3.0.0-alpha.2
+
+  # for post content & comment content
+  url_launcher: ^6.0.20
+
+  # for post & comment
+  flutter_linkify: ^5.0.2
+
+  #
+  dio: ^4.0.4
+
+  # Used in PostModel.
+  intl: ^0.17.0
+
+  #
+  path: ^1.8.0
+
+  # file upload
+  file_picker: ^4.5.1
+
+
+  # email validation on user email in profile screen.
+  email_validator: ^2.0.1
+  
+
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+
+flutter:
+
+

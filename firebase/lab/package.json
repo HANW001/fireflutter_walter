@@ -1,0 +1,25 @@
+{
+  "name": "lab",
+  "version": "1.0.0",
+  "description": "",
+  "main": "create.test.user.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "meilisearch:reindex:users": "ts-node meilisearch-reindex.ts users",
+    "meilisearch:reindex:posts": "ts-node meilisearch-reindex.ts forum",
+    "meilisearch:delete-index:users": "ts-node meilisearch-delete-index.ts users",
+    "meilisearch:delete-index:posts": "ts-node meilisearch-delete-index.ts posts",
+    "meilisearch:delete-index:comments": "ts-node meilisearch-delete-index.ts comments"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "axios": "^0.26.0",
+    "firebase-admin": "^10.0.2",
+    "meilisearch": "^0.24.0"
+  },
+  "devDependencies": {
+    "@faker-js/faker": "^6.0.0-alpha.7"
+  }
+}
